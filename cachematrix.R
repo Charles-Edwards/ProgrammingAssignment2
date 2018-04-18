@@ -14,7 +14,7 @@ x <<- y
 m <<- NULL
 }
 getmatrix <- function() x
-setinverse <- function(mean) m <<- mean
+setinverse <- function(inverse) m <<- inverse
 getinverse <- function() m
 list(setmatrix = setmatrix, getmatrix = getmatrix,
 setinverse = setinverse,
